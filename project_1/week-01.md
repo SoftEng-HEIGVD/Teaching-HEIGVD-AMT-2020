@@ -14,7 +14,7 @@ Suggested planning, assuming a group of 4 students:
 
 **Time Box 2: 90 minutes**
 
-* **Pair A** then becomes familiar with Servlets, JSPs ans Servlet Filters. Use the example code in the above repo. In 1 hour 15 minutes, you should:
+* **Pair A** then becomes familiar with Servlets, JSPs and Servlet Filters. Use the example code in the above repo. In 1 hour 15 minutes, you should:
   * Learn how to write a Servlet in a Java class
   * Learn how to write a JSP page with the JSTL tag library
   * Learn how to create a model in the controller (servlet) and pass it to the view

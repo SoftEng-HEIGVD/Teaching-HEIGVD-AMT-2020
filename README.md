@@ -6,23 +6,25 @@
 
 * **Objectives**
 
-  * Be able to explain what a "layered" or "tiered" architecture is.
-  * Be able to explain how Java EE is one of the platforms for building multi-tiered architectures.
-  * Be able to explain what the MVC design pattern means in web development and why it is useful.
-  * Be able to implement the MVC design pattern with selected Java EE APIs (Servlets, JSPs, JSTL) 
-  * Be able to explain what Docker Compose is and how it complements Docker
+  * Be able to explain what it means for a component to be "managed" and by "what" components are managed.
+  * Be able to explain what dependency injection means in object-oriented programming.
+  * Be able to explain how dependency injection can be implemented "from scratch". See https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-AMT-Dependency-Injection
+  * Be able to explain how dependency injection is implemented in the Java EE / Jakarta EE platform.
+  * Be able to explain what Aspect Oriented Programming (AOP) is.
+  * Be able to explain the relationship between AOP, managed components and dependency injection.
 
 * **Project**
 
-  * Get started with the ~~Stack Over~~(Flow) project
-  * *Understand the constraints for project 1. We will not use Spring Boot. We will not implement a REST API. We will not use a Javascript framework such as Vue.js or React in the front-end. We will not immediately use JPA or another ORM. This will come later.*
-  * Create mockups for your version of the application
-  * Create Servlets and JSPs for
-  * Investigate [CodeceptJS](https://codecept.io/) for automated user acceptance testing
+  * Replace Payara / Wildfly with Open Liberty, a modern implementation of Jakarta EE (see [this webcast](https://www.youtube.com/watch?v=fJI_9VArhtY&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=1&t=733s))
+  * Study the reference architecture described in [this](https://www.youtube.com/watch?v=Yr7OeHtefvQ&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=3) and [this](https://www.youtube.com/watch?v=SW9YFmC_va0&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=4) webcast, which provides the overall structure for your application across all tiers.
+  * Reuse the code you wrote during the first week.
+  * Make sure that your CodeceptJS tests still work and extend them.
+  * Implement a new feature (users can ask questions)
+  * Implement a first continuous integration pipeline with GitHub Actions (build and publish a Docker image as described in [this webcast](https://www.youtube.com/watch?v=jrTIZBMmqhI&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=2&t=8s)).
 
 * **The Question of the Week**: 
 
-  * *Pour développer une application avec la Servlet API, il est nécessaire d'utiliser un serveur d'application Java EE (maintenant Jakarta EE). Donnez votre avis sur cette proposition et justifiez vos arguments.*
+  * *Expliquez comment les Enterprise Java Beans (EJBs) permettent d'appliquer les principes de la programmation orientée aspects (AOP). Appuyez-vous sur un exemple de code et expliquez en détails ce qui se passe "derrière les décors" (i.e. expliquez ce que le serveur d'application fait).*
 
 * **Repos**
 
@@ -30,7 +32,7 @@
 
 * **Notes about the YouTube Playlist:**
 
-  * I have added 4 videos (Bootcamp 1.1 - 1.4) with explanations and demonstrations about Java EE (what is an application server? how do I deploy a .war file into an application server?). I have also added 5 videos (Bootcamp 2.1 - 2.6). *You are not supposed to follow the instructions step-by-step*, because the videos have been produced when I was still using Netbeans. However, because the core of the Servlet API is stable, the concepts and code that you see in the videos are still valid.
+  * I have added 4 videos (see the links in the Project paragraph just above).
 
   
 
@@ -50,7 +52,7 @@
 * The notion of managed component
 * Dependency injection
 * Aspect Oriented Programming (AOP)
-* *Project: you have replaced the full Jakarta EE server with an embedded container (OpenLiberty), which you will use for the rest of project 1. You have an efficient development environment workflow, with IDE, Debugger and build pipeline (producing Docker images of your application). After registration and login, the user can ask questions. The user can also provide answers to questions. These features are protected with end-user acceptance tests.*
+* *Project: you have replaced the full Jakarta EE server with an embedded container (OpenLiberty), which you will use for the rest of project 1. You have an efficient development environment workflow, with IDE, Debugger and build pipeline (producing Docker images of your application). After registration and login, the user can ask questions. These features are protected with end-user acceptance tests.*
 
 #### Week 3 (28.09.2020)
 

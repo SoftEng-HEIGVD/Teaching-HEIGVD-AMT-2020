@@ -24,7 +24,7 @@ At this point, you should have a first skeleton for your project and everybody i
   * Follow the instructions in this webcast and create a pipeline for your project.
   * Make sure that at the end, it is possible for some external to the project (e.g. the assistants) to do a docker run with your image. Write down in your README.md how to do that (i.e. what is the name of your image).
 * **Someone needs to bring the registration / login logic in the new structure (4 hours)**
-  * Watch this webcast for guidelines (ask your team mates to also watch it, even if they don't do the operations or take the time to show them the code)
+  * Watch this [webcast](https://www.youtube.com/watch?v=k5bxeWyv3iQ) for guidelines (ask your team mates to also watch it, even if they don't do the operations or take the time to show them the code)
 * **Someone needs to take the lead on the views and the  e2e testing (4 hours)**
   * As you have new pages, you will need to update your presentation layer.
   * Update your end-to-end tests and take the time to read the CodeceptJS documentation to learn about Page Objects, Actors and other patterns that will allow you to grow your test suite gracefully.

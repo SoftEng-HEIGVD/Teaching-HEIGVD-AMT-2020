@@ -6,35 +6,31 @@
 
 * **Objectives**
 
-  * Be able to explain what it means for a component to be "managed" and by "what" components are managed.
-  * Be able to explain what dependency injection means in object-oriented programming.
-  * Be able to explain how dependency injection can be implemented "from scratch". See https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-AMT-Dependency-Injection
-  * Be able to explain how dependency injection is implemented in the Java EE / Jakarta EE platform.
-  * Be able to explain what Aspect Oriented Programming (AOP) is.
-  * Be able to explain the relationship between AOP, managed components and dependency injection.
+  * Be able to explain why many multi-tiered applications apply the DAO pattern
+  * Be able to explain to describe the structure of the DAO pattern with diagrams
+  * Be able to implement the DAO pattern with Java and Jakarta EE components
+  * Be able to describe the role of JDBC in the context of Jakarta EE
+  * Be able to implement a DAO with JDBC
+  * Be able to explain why load testing is important
+  * Be able to design and perform an experiment to demonstrate that servlets are not thread-safe
 
 * **Project**
 
-  * Replace Payara / Wildfly with Open Liberty, a modern implementation of Jakarta EE (see [this webcast](https://www.youtube.com/watch?v=fJI_9VArhtY&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=1&t=733s))
-  * Study the reference architecture described in [this](https://www.youtube.com/watch?v=Yr7OeHtefvQ&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=3) and [this](https://www.youtube.com/watch?v=SW9YFmC_va0&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=4) webcast, which provides the overall structure for your application across all tiers.
-  * Reuse the code you wrote during the first week.
-  * Make sure that your CodeceptJS tests still work and extend them.
-  * Implement a new feature (users can ask questions)
-  * Implement a first continuous integration pipeline with GitHub Actions (build and publish a Docker image as described in [this webcast](https://www.youtube.com/watch?v=jrTIZBMmqhI&list=PLfKkysTy70QZe0fhUhZmR64ZPUIFpN4MJ&index=2&t=8s)).
-
+  * Setup a relational database for your project (add a service in your docker topology, create tables for your domain)
+  * Configure your Open Liberty project so that it can talk to the database
+  * Implement JDBC repositories to have an alternative to your in-memory repositories
+  * Create JMeter scripts to evaluate your endpoints under load (check correct behavior + get metrics)
+  
 * **The Question of the Week**: 
 
-  * *Expliquez comment les Enterprise Java Beans (EJBs) permettent d'appliquer les principes de la programmation orientée aspects (AOP). Appuyez-vous sur un exemple de code et expliquez en détails ce qui se passe "derrière les décors" (i.e. expliquez ce que le serveur d'application fait).*
+  * *Utiliser la session HTTP est facile et pratique avec la Servlet API. Mais c'est aussi quelque chose de dangereux si on réfléchit aux exigences non fonctionnelles. En vous appuyant sur un exemple de code, expliquez comment une programmation naïve peut causer des catastrophes en production. Expliquez ensuite comment mettre en oeuvre un harnais de sécurité pour prévenir de telles erreurs.*
 
 * **Repos**
 
-  * Here is the repo for the first Java EE demo: https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-AMT-Discovery
-
-* **Notes about the YouTube Playlist:**
-
-  * I have added 4 videos (see the links in the Project paragraph just above).
+  * For the JMeter demo, we go back to: https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-AMT-MVC-simple-example
 
   
+
 
 ## Semester Planning
 

@@ -81,7 +81,7 @@
 * The design of REST APIs
 * Document REST APIs with Swagger / Open APIs
 * Introduction to Spring Boot
-* *Project: you have a first skeleton of the gamification engine, based on Spring Boot. You have specified the /events endpoint, used to report user activity with POST requests. You do have to persist the events yet. You have JMeter scripts to exercise load on the endpoint. You have Cucumber BDD tests to specify and validate the behaviour of the endpoint.*
+* *Project: you have a first skeleton of the gamification engine, based on Spring Boot. You have specified the /events endpoint, used to report user activity with POST requests. You do NOT have to persist the events yet. You have JMeter scripts to exercise load on the endpoint. You have Cucumber BDD tests to specify and validate the behaviour of the endpoint.*
 * Webcasts to watch on Wednesday:
   * Intro à la 2ème partie du semestre ([link](https://www.youtube.com/watch?v=1kQQvoBHxZc&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=25&t=20s)), 7:50, 2020
   * Intro au 2ème projet ([link](https://www.youtube.com/watch?v=laQ6WYny8qk&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=26)): 30:38, 2020

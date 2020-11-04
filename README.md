@@ -82,6 +82,21 @@
 * Document REST APIs with Swagger / Open APIs
 * Introduction to Spring Boot
 * *Project: you have a first skeleton of the gamification engine, based on Spring Boot. You have specified the /events endpoint, used to report user activity with POST requests. You do have to persist the events yet. You have JMeter scripts to exercise load on the endpoint. You have Cucumber BDD tests to specify and validate the behaviour of the endpoint.*
+* Webcasts to watch on Wednesday:
+  * Intro à la 2ème partie du semestre ([link](https://www.youtube.com/watch?v=1kQQvoBHxZc&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=25&t=20s)), 7:50, 2020
+  * Intro au 2ème projet ([link](https://www.youtube.com/watch?v=laQ6WYny8qk&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=26)): 30:38, 2020
+  * Intro aux APIs REST ([link](https://www.youtube.com/watch?v=Ghek5ppQIjQ&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=27)): 24:10, 2020
+  * Intro à Swagger ([link](https://www.youtube.com/watch?v=jHAKnNeLCEk&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=28)): 26:53, 2020
+  * Intro à Spring Boot ([link](https://www.youtube.com/watch?v=T68-jIOHNi4&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=29)): 22:23, 2020
+  * Swagger avec Spring Boot: introduction ([link](https://www.youtube.com/watch?v=Zw3Uf3m1_us&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=30)): 10:26, (2016: do not try to replicate step-by-step)
+  * Swagger avec Spring Boot - étape 1 ([link](https://www.youtube.com/watch?v=dHIADSPcRsk&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=31)): 10:26 (2016)
+* For the lab, we suggest that after everyone in the group has watched the webcasts to really understand the relationship between 1) the Swagger / OpenAPI spec, 2) the Spring Boot implementation of the spec and 3) the validation of the spec with automated tests written with CucumberJVM, then you split the work in two groups. One group starts by getting familiar with Spring Boot, Spring MVC and Spring Data (responsibility: implement a REST API, where controllers use JPA repositories to access a DB). One group starts by getting familiar with CucumberJVM and how to write BDD tests with this framework.
+* For the lab, the easiest is to get started is to use the structure in [this repo](https://github.com/AvaliaSystems/TrainingREST). Note that I am still working on it and will update master most likely on Friday morning. In the 2020 upgrade, we are moving from Swagger to Open API. We are upgrading libraries. We are also updating the code a little bit (e.g. to have an example of a date property).
+* Webcasts to start watching on Friday:
+  * Swagger avec Spring Boot - étapes 2, 2bis, 3, 4 et conclusion (~90')
+  * Swagger et Cucumber (3 vidéos) (~30')
+  * Migration du projet de Netbeans à IntelliJ en 2017 (2 vidéos "micro-services") (~15')
+  * Gamification & event processing (6 vidéos) (~75')
 
 #### Week 8 (09.11.2020)
 

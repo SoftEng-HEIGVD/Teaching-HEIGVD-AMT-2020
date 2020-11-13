@@ -81,7 +81,7 @@
 * The design of REST APIs
 * Document REST APIs with Swagger / Open APIs
 * Introduction to Spring Boot
-* *Project: you have a first skeleton of the gamification engine, based on Spring Boot. You have specified the /events endpoint, used to report user activity with POST requests. You do have to persist the events yet. You have JMeter scripts to exercise load on the endpoint. You have Cucumber BDD tests to specify and validate the behaviour of the endpoint.*
+* *Project: you have a first skeleton of the gamification engine, based on Spring Boot. You have specified the /events endpoint, used to report user activity with POST requests. You do NOT have to persist the events yet. You have JMeter scripts to exercise load on the endpoint. You have Cucumber BDD tests to specify and validate the behaviour of the endpoint.*
 * Webcasts to watch on Wednesday:
   * Intro à la 2ème partie du semestre ([link](https://www.youtube.com/watch?v=1kQQvoBHxZc&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=25&t=20s)), 7:50, 2020
   * Intro au 2ème projet ([link](https://www.youtube.com/watch?v=laQ6WYny8qk&list=PLfKkysTy70Qagym3yvAgf-vvsTnOQjgZz&index=26)): 30:38, 2020
@@ -106,17 +106,17 @@
 
 #### Week 9 (16.11.2020)
 
-* Monoliths and micro services
+* Introduction to Lean Startup, by Jérôme Kehrli (CTO at NetGuardians) [Article](https://www.niceideas.ch/roller2/badtrash/entry/lean-startup-a-focus-on). From 9:30 to 10:30.
 * *Project: you have introduced a simple rule system. The user of your gamification engine (i.e. the developer of the gamified application) can specify how reputation points are awarded for different end-user events. You have implemented a number of queries to benefit from this information and made them available via the REST API (e.g. it is possible to get the reputation of one end-user, to get the top-10 end-users, to get the evolution of the reputation for one end-user over time).*
 
 #### Week 10 (23.11.2020)
 
-* CQRS & event sourcing
+* Both sessions reserved for project work
 * *Project: you have extended the rule system. The user of your gamification engine can specify how badges are awarded for different end-user events. You have extended your set of queries to make this information available via the REST API.*
 
 #### Week 11 (30.11.2020)
 
-* Both sessions reserved for project work
+* DevOps, by Jérôme Kehrli (CTO at NetGuardians) [Article](https://www.niceideas.ch/roller2/badtrash/entry/devops-explained). From 9:30 to 10:30.
 * *Project: you have a complete system. You have automated tests to validate end-to-end scenarios: several app developers can register their app with the gamification engine. They can create rules to setup their reputation system. The activity of end-users within the different applications is streamed to the gamification engine, which applies the configured rules. Application developers have access to the reputation of their users. You have load tests to validate that the system works correctly under concurrency.*
 
 #### Week 12 (07.12.2020)
